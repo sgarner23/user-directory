@@ -1,0 +1,23 @@
+.header-container {
+  background-color: #35a5da;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  padding-left: 50px;
+  padding-bottom: 5px;
+}
+
+a {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: #222;
+}
+
+a:visited {
+  color: #222;
+}

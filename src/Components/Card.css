@@ -1,0 +1,47 @@
+.card {
+  height: 450px;
+  width: 750px;
+  background-color: #ebebeb;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.card-number {
+  align-self: flex-end;
+
+  font-size: 34px;
+  font-weight: bold;
+  padding: 7px 7px 0px 0px;
+}
+
+.name {
+  padding-left: 50px;
+  text-decoration: 2px underline #35a5da;
+  text-underline-offset: 7px;
+  font-size: 34px;
+}
+
+.work-info {
+  padding-left: 50px;
+  padding-top: 25px;
+  line-height: 30px;
+}
+
+.movies {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.fav-movies {
+  font-weight: bolder;
+}
+
+ol {
+  padding-left: 70px;
+  line-height: 25px;
+}

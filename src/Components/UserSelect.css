@@ -1,0 +1,42 @@
+.menu-wrapper {
+  display: block;
+  display: flex;
+  width: 753px;
+  justify-content: space-between;
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  top: 460px;
+  left: 0px;
+}
+p {
+  display: flex;
+}
+
+.button-container {
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #34a5da;
+  border: none;
+  border-radius: 11px;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.arrow-container {
+  margin-top: 2px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.click-me {
+  cursor: pointer;
+}
